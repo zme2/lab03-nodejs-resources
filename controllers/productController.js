@@ -1,4 +1,4 @@
-const getCatalog = (request, response) => {
+const getCatalogue = (request, response) => {
     const catalogServices = require('../services/productServices');
     catalogServices.searchService(function(err, rows) {
         response.json(rows);
@@ -25,7 +25,7 @@ const getProductsByCategory = (request, response) => {
 };
 
 module.exports = {
-    getCatalog,
+    getCatalogue,
     getProductByID,
     getProductsByCategory
 };
