@@ -10,6 +10,8 @@ These are resources you should use for lab 3 on Node.js.
 
 **controllers**: contains modules for manipulating HTTP Requests and sending HTTP response
 
+**apis**: defines the example routes (or end points) for which the server provides responses
+
 **public**: contains static HTML, CSS and image files
 
 **views**: contais examples of EJS files
