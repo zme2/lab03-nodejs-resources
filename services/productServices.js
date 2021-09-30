@@ -1,6 +1,6 @@
-const productDAO = require('../daos/productDAO');
+const productDAO = require('../db/productDAO');
 const searchService = function(callback) {
-    productDAO.find(function(err, rows) {
+    productDAO.findAll(function(err, rows) {
         if (err) {
             throw err;
         }
